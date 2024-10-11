@@ -7,6 +7,8 @@ begin
     'русский' : Println('Привет!');
     'английский' : Println('Hello!');
     'испанский' : Println('Hola!');
+  else
+    Println('Данный язык не поддерживается');
   end;
 end.
 {log_1
